@@ -33,7 +33,7 @@ function Contact() {
       .then((res) => {
         console.log(res);
         alert("Your message has been sent");
-        buttonEl.current.disabled = !alert(cd );
+        buttonEl.current.disabled = !alert();
       })
       .catch((err) => {
         console.log(err);
