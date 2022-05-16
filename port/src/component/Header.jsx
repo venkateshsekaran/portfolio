@@ -5,7 +5,7 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-primary container shadow-lg nav-border ">
         <div className="container-fluid">
-          <Link className="navbar-brand fw-bold fst-italic" to="/home">
+          <Link className="navbar-brand fw-bold fst-italic" to="/">
             Portfolio
           </Link>
           <button
@@ -25,11 +25,7 @@ export default function Header() {
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
               <li className="nav-item me-5 fw-bold">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/home"
-                >
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
