@@ -41,17 +41,17 @@ function Contact() {
   };
 
   return (
-    <div className="">
-      <section className="contact  ">
-        <div className="container mt-5 ">
-          <div className="row ">
+    <div>
+      <section className="contact">
+        <div className="container mt-5">
+          <div className="row">
             <div className="col-md-12 text-center py-4 mb-5">
               <h1>Contact</h1>
               <hr />
             </div>
           </div>
         </div>
-        <div className="container  ">
+        <div className="container">
           <div className="row d-flex justify-content-center">
             <div className="col-md-8  mb-5 bg p-3">
               <div className="card ">
